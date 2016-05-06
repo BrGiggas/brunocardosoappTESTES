@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
+#foto {
+    display: block;
+    margin: 1em auto 0;
+    width: 40%;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ui-content{
+position:absolute;
+ margin: 1em auto 0;
+top: 50px; /*your header height*/
+right: 0;
+bottom: 24px; /*your footer height */
+left: 0;
+ 
+    vertical-align:middle;
+}
+#home, #resumo, #experiencia, #contactos, #educacao, #info, #competencias  {
+    background: url(backgroundphoto.png) !important; }
+
+body {
+    background: url(splash.png) !important; 
+}
+
+#backcolor{
+    background-color:lightsteelblue;
+}
